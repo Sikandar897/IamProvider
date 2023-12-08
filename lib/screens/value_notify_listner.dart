@@ -1,6 +1,6 @@
 /* In this example we are going to use statless widget as a statefull widget it is just a hurrah concept of a provider */
-/*Morever we dosenot required to create a seprate class just like we do in other and create its change notifer etc*/
-/*we are just need to use the ValueListenable which will work for changenotifer and will work same like as previous count provider example*/
+/* Morever we dosenot required to create a seprate class just like we do in other and create its change notifer etc*/
+/* we are just need to use the ValueListenable which will work for changenotifer and will work same like as previous count provider example*/
 
 //import 'dart:ffi';
 
