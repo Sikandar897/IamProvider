@@ -4,7 +4,8 @@ import 'package:provider_example_2/provider/count_provider.dart';
 import 'package:provider_example_2/provider/favourite_provider.dart';
 import 'package:provider_example_2/provider/provider.dart';
 import 'package:provider_example_2/provider/theme_changer_provider.dart';
-import 'package:provider_example_2/screens/dark_theme.dart';
+//import 'package:provider_example_2/screens/dark_theme.dart';
+import 'package:provider_example_2/screens/value_notify_listner.dart';
 //import 'package:provider_example_2/screens/favourite/favourites_screen.dart';
 //import 'package:provider_example_2/screens/provider_example_two.dart';
 
@@ -32,7 +33,10 @@ class MyApp extends StatelessWidget {
             theme: ThemeData(
               colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
               brightness: Brightness.light,
-              appBarTheme: const AppBarTheme(backgroundColor: Colors.red),
+              appBarTheme: const AppBarTheme(
+                centerTitle: true,
+                foregroundColor: Colors.white,
+                backgroundColor: Colors.red),
               useMaterial3: true,
             ),
             darkTheme: ThemeData(
@@ -43,7 +47,7 @@ class MyApp extends StatelessWidget {
               iconTheme: const IconThemeData(color: Colors.red),
               useMaterial3: true,
             ),
-            home: const DarkThemeScreen(),
+            home: const NotifyListnerScreen(),
           );
         }));
   }
