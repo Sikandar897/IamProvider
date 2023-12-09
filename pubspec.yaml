@@ -38,6 +38,9 @@ dependencies:
   
   # provider_dependecny
   provider: ^6.1.1
+  
+  #http dependency
+  http: ^1.1.2
 
 
 dev_dependencies:
